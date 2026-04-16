@@ -12,8 +12,8 @@ clock = pygame.time.Clock()
 
 image_clock = pygame.image.load("images/clock.png").convert_alpha()
 mickey = pygame.image.load("images/mickey.png").convert_alpha()
-hand_l = pygame.image.load("images/hand_left_centered.png").convert_alpha()
-hand_r = pygame.image.load("images/hand_right_centered.png").convert_alpha()
+hand_l = pygame.image.load("images/left_hand.png").convert_alpha()
+hand_r = pygame.image.load("images/right_hand.png").convert_alpha()
 
 running = True
 while running:
