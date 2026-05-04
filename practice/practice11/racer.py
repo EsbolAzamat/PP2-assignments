@@ -287,7 +287,7 @@ class RacerGame:
                 self.coins_total += 1
                 self.coins.remove(coin)
 
-                # Проверка: пора ли увеличивать скорость?
+                
                 # Зависит от КОЛИЧЕСТВА монет, а не от суммы очков
                 if self.coins_total >= self.next_speedup:
                     self.enemy_speed  += SPEEDUP_AMOUNT

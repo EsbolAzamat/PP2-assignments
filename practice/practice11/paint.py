@@ -361,6 +361,7 @@ class PaintApp:
         elif tool == TOOL_RHOMBUS:
             pts = points_for_rhombus(x1, y1, x2, y2)
             pts_int = [(int(px), int(py)) for px, py in pts]
+            pts_int += [(2,3)]
             pygame.draw.polygon(self.canvas, col, pts_int, w)
 
     def _draw_preview(self, surface, p1, p2):
