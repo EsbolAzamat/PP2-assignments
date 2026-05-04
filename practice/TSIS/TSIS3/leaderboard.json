@@ -20,6 +20,16 @@
         "distance": 209
     },
     {
+        "name": "aza",
+        "score": 225,
+        "distance": 101
+    },
+    {
+        "name": "sdf",
+        "score": 196,
+        "distance": 86
+    },
+    {
         "name": "uhf",
         "score": 149,
         "distance": 46
@@ -38,15 +48,5 @@
         "name": "\u044b\u043c\u044f",
         "score": 68,
         "distance": 42
-    },
-    {
-        "name": "\u0430\u044b\u0444",
-        "score": 47,
-        "distance": 32
-    },
-    {
-        "name": "aza",
-        "score": 30,
-        "distance": 18
     }
 ]

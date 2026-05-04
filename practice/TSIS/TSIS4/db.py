@@ -10,12 +10,15 @@ DB_CONFIG = {
     "host": "localhost",
     "port": "5432"
 }
+
+
 def get_connection():
-    """Создает соединение с базой данных."""
+    """Создает соединение c базой данных."""
     return psycopg2.connect(**DB_CONFIG)
 
 def init_db():
     """Создает таблицы players и game_sessions, если они еще не созданы."""
+    
     conn = get_connection()
     cur = conn.cursor()
     

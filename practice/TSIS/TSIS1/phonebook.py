@@ -215,7 +215,7 @@ def paginated_browse():
             results = _fetch_contacts_with_phones(conn, ids)
             _print_contacts(results)
         else:
-            print("  (empty page)")
+            print("  (empty page)") 
 
         cmd = input("[N]ext  [P]rev  [Q]uit: ").strip().lower()
         if cmd == "n":

@@ -46,7 +46,7 @@ BEGIN
         WHERE table_name = 'contacts' AND column_name = 'group_id'
     ) THEN
         ALTER TABLE contacts ADD COLUMN group_id INTEGER REFERENCES groups(id);
-    END IF;
+    END IF; 
 END
 $$;
 

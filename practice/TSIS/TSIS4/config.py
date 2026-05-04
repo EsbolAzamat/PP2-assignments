@@ -24,7 +24,7 @@ BLUE = (0, 100, 255)       # Speed Boost
 PURPLE = (160, 0, 200)     # Slow Motion
 ORANGE = (255, 140, 0)     # Shield
 
-# --- Настройки (JSON) ---
+#  Настройки (JSON) 
 SETTINGS_FILE = Path("settings.json")
 
 DEFAULT_SETTINGS = {
